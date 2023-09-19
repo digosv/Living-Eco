@@ -43,7 +43,7 @@ nav {
 .nav-list li {
   margin-left: 32px;
   letter-spacing: 3px;
-  background: url(./Assets/sky4.avif);
+  background: url(./assets/sky4.avif);
   background-clip: unset;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
