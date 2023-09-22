@@ -105,8 +105,6 @@ nav {
   .mobile-menu {
     display: block;
   }
-
-
 }
 
 .nav-list.active {
@@ -125,14 +123,13 @@ nav {
 }
 
 .mobile-menu.active .line1 {
- transform: rotate(-45deg) translate(-8px, 8px);
+  transform: rotate(-45deg) translate(-8px, 8px);
 }
 
 .mobile-menu.active .line2 {
-opacity: 0;
+  opacity: 0;
 }
 
 .mobile-menu.active .line3 {
-transform: rotate(45deg) translate(-5px, -7px);
+  transform: rotate(45deg) translate(-5px, -7px);
 }
-
