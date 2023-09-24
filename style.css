@@ -157,13 +157,13 @@ nav {
 }
 
 .home .content a {
-padding: 10px;
-margin-top: 10cm;
+  padding: 10px;
+  margin-top: 10cm;
 }
 
 @media (max-width: 999px) {
   body {
-    overflow-x: hidden;;
+    overflow-x: hidden;
   }
 
   .nav-list {
@@ -193,10 +193,28 @@ margin-top: 10cm;
   .mobile-menu {
     display: block;
   }
+}
 
+@media (max-width: 1135px) {
   .home {
     background: url(./assets/opcelular.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
+  }
 
+  .home .content {
+    padding-right: 150px;
+  }
+
+  .home .content h3 {
+    font-size: 6rem;
+  }
+
+  .home .content span {
+  }
+
+  .home .content p {
+    color: #fff;
+    font-weight: 400;
   }
 }
