@@ -129,6 +129,7 @@ nav {
   background: url(./assets/op1.jpg) no-repeat;
   background-position: center;
   background-size: cover;
+  max-height: 92vh;
 }
 
 .home .content h3 {
